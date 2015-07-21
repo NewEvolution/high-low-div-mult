@@ -1,3 +1,8 @@
 body {
   font-family: sans-serif;
 }
+
+.party {
+  font-size: 5em;
+  color: red;
+}

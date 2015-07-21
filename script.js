@@ -5,8 +5,10 @@ function testerFunc() {
     alert("Please enter a number.");
   } else if (userInput > 10000) {
     mathFunc(userInput, diviFunc);
-  } else {
+  } else if (userInput < 10000) {
     mathFunc(userInput, multiFunc);
+  } else {
+    writeFunc("<span class='party'>You found the edge case!<br>WOOO PARTY!</span>");
   }
   inputBox.value = "";
 }
