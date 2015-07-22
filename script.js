@@ -9,7 +9,7 @@ function testerFunc() {
   } else if (userInput < 10000) {
     mathFunc(userInput, multiFunc);
   } else {
-    writeFunc("<span class='party'>You found the edge case!<br><strong>WOOO PARTY!</strong></span>");
+    writeFunc("<span class='party'>You found the edge case!<br><marquee><strong>WOOO PARTY!</strong></marquee></span>");
   }
   inputBox.value = "";
 }
