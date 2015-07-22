@@ -2,7 +2,7 @@ function testerFunc() {
   var inputBox = document.getElementById("num_input");
   var userInput = inputBox.value;
   if(userInput === "") {
-    writeFunc("");
+    writeFunc("Output.");
     alert("Please enter a number.");
   } else if (userInput > 10000) {
     mathFunc(userInput, diviFunc);
