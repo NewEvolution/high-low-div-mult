@@ -1,8 +1,47 @@
 body {
   font-family: sans-serif;
+  background: #333 url("images/black_paisley.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+input {
+  background-color: #777;
+  color: white;
+  border: none;
+  text-align: center;
+  box-shadow: 2px 2px 5px #111 inset;
+  height: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #333;
+}
+
+.centered {
+  text-align: center;
+  margin: 100px auto;
+  background-color: #777;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px #111, 5px 5px 10px #ccc inset;
+  color: white;
+}
+
+.input_area {
+  width: 20%;
+  text-shadow: 2px 2px #333;
+}
+
+.output_area {
+  width: 70%;
+  text-shadow: 1px 1px #333;
 }
 
 .party {
   font-size: 5em;
   color: red;
+  text-shadow: 2px 2px black;
 }
