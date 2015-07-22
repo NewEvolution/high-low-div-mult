@@ -26,7 +26,7 @@ input {
   background-color: #777;
   padding: 50px;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px #111, -5px -5px 10px #111 inset, 5px 5px 10px #ccc inset;
+  box-shadow: 15px 15px 30px #111, -5px -5px 10px #111 inset, 5px 5px 10px #ccc inset;
   color: white;
 }
 
