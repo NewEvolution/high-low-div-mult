@@ -45,4 +45,24 @@ input {
   font-size: 5em;
   color: red;
   text-shadow: 2px 2px black;
+  -webkit-animation: strobe 1s infinite;
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+  animation: strobe 1s infinite;
+}
+
+@-webkit-keyframes strobe {
+    0% { -webkit-transform:   skew(4deg,0deg) scaleX(1); }
+    10% { -webkit-transform:  skew(1deg,0deg) scaleY(.9) ; }
+    50% { -webkit-transform:  skew(-4deg,0deg) scaleX(1); }
+    60% { -webkit-transform:  skew(-1deg,0deg) scaleY(.9) ; }
+    100% { -webkit-transform: skew(4deg,0deg) scaleX(1); }
+}
+
+@keyframes strobe {
+  0% { transform:   skew(4deg,0deg) scaleX(1); }
+  10% { transform:  skew(1deg,0deg) scaleY(.9) ; }
+  50% { transform:  skew(-4deg,0deg) scaleX(1); }
+  60% { transform:  skew(-1deg,0deg) scaleY(.9) ; }
+  100% {transform: skew(4deg,0deg) scaleX(1); }
 }
