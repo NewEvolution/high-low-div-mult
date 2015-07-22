@@ -3,6 +3,7 @@ body {
   background: #333 url("images/black_paisley.jpg");
   margin: 0;
   padding: 0;
+  background-attachment: fixed;
 }
 
 h1 {
